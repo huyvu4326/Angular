@@ -1,0 +1,30 @@
+<form (ngSubmit) = "onHandleAdd()">
+    <div class="mb-3">
+        <input 
+            type="text" 
+            [(ngModel)] = "product.name"
+            name= "name"
+            placeholder="Tên sản phẩm"
+            class="form-control"
+        />
+    </div>
+    <div class="mb-3">
+        <input 
+            type="number" 
+            [(ngModel)] = "product.price"
+            name= "price"
+            placeholder="Giá sản phẩm"
+            class="form-control"
+        />
+    </div>
+    <div class="mb-3">
+        <input 
+            type="text" 
+            [(ngModel)] = "product.img"
+            name= "Ảnh"
+            placeholder="Ảnh sản phẩm"
+            class="form-control"
+        />
+    </div>
+    <button type="submit" class="btn btn-primary"> Thêm sản phẩm</button>
+</form>

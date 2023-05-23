@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Product B",
+      "price": 300,
+      "img": "anh"
+    },
+    {
+      "id": 3,
+      "name": "Product C",
+      "price": 400,
+      "img": "anh"
+    },
+    {
+      "name": "Hà Huy Vũ",
+      "price": 500,
+      "img": "sgs",
+      "id": 4
+    },
+    {
+      "name": "dsgg",
+      "price": 555,
+      "img": "fasfaf",
+      "id": 5
+    }
+  ]
+}
